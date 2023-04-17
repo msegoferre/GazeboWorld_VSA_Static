@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+<sdf version='1.6'>
+  <model name='Mesa'>
+    <static>true</static>
+    <link name='link'>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://mesa/meshes/collision/mesa.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://mesa/meshes/visual/mesa.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
